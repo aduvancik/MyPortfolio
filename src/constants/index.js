@@ -13,6 +13,13 @@ import {
   nuoma,
   onmu,
   revents,
+  risex,
+  riselogo,
+  antd,
+  azure,
+  csharp,
+  mui,
+  vue,
   campsite,
 } from "../assets";
 
@@ -37,11 +44,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "QA Engineer",
     icon: web,
   },
   {
-    title: "Front-End Developer",
+    title: "Front-End Engineer",
     icon: mobile,
   },
 ];
@@ -79,15 +86,41 @@ const technologies = [
     name: "git",
     icon: git,
   },
+  {
+    name: "Ant-design React",
+    icon: antd,
+  },
+  {
+    name: "Azure DevOps",
+    icon: azure,
+  },
+  {
+    name: "C#",
+    icon: csharp,
+  },
+  {
+    name: "MUI React",
+    icon: mui,
+  },
+  {
+    name: "VueJS",
+    icon: vue,
+  },
 ];
 
 const jobs = [
   {
-    title: "Currently looking for experience as Front-End Developer :)",
-    company_name: "",
-    iconBg: "#383E56",
-    date: "",
-    points: [],
+    title: "Front-End Engineer",
+    company_name: "Rise-X",
+    icon: riselogo,
+    iconBg: "#fff",
+    date: "Aug 2023 - current",
+    points: [
+      "Implementing and maintaining UI of web applications to ensure an intuitive and engaging user experience.",
+      "Maintaining and writing Unit Tests / Automation test to ensure product quality.",
+      "Good knowledge of writing re-usable and readable code, that other developers can maintain as well",
+      "Currently learning Back-End (C#) in order to become Full-Stack Engineer & DevOps Azure",
+    ],
   },
 ];
 
@@ -111,7 +144,7 @@ const educations = [
     company_name: "Odesa National Maritime University",
     icon: onmu,
     iconBg: "#1D377D",
-    date: "Sep 2022 - Current",
+    date: "Sep 2022 - Dec 2023",
     points: [
       "Master degree",
       "Understanding of principles and concepts of logistics management, including supply chain management, inventory control, demand forecasting, and logistics network design.",
@@ -130,19 +163,6 @@ const educations = [
       "Developing and maintaining web applications using HTML, CSS, Javascript & React.js",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Understanding version control systems like Git - track changes, collaborate with other developers, and manage code repositories. ",
-    ],
-  },
-  {
-    title: "Computer Techologies",
-    company_name: "Odesa National Maritime University",
-    icon: onmu,
-    iconBg: "#1D377D",
-    date: "Sep 2023 - Current",
-    points: [
-      "Master degree",
-      "Studying database concepts, data modeling, and SQL (Structured Query Language) for managing and querying databases",
-      "Learning software engineering principles and practices, including software development life cycle (SDLC), requirements analysis, software design, testing, and maintenance. ",
-      "Gaining knowledge of operating systems, their functionalities, and management, such as process management, memory management, file systems, and security mechanisms.",
     ],
   },
 ];
@@ -208,6 +228,44 @@ const projects = [
       },
     ],
     image: revents,
+    source_code_link: "https://github.com/ilyalobatch/Re-vents",
+  },
+  {
+    name: "Rise-X \n(Under development)",
+    description:
+      "The Rise-X Ecosystem Orchestration Platform (EOP) is a comprehensive multi-party collaborative platform that enables you to build, connect, optimise, and automate every workflow in your business.",
+    tags: [
+      {
+        name: "javascript",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "zustand",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "C#",
+        color: "green-text-gradient",
+      },
+      {
+        name: "python",
+        color: "green-text-gradient",
+      },
+      {
+        name: "java",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mui-react",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: risex,
+    project_link: "https://www.rise-x.io/",
     source_code_link: "https://github.com/ilyalobatch/Re-vents",
   },
 ];
