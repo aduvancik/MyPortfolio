@@ -26,7 +26,6 @@ import starbucks from "./company/starbucks.png";
 import freelance from "./company/freelance.png";
 
 import beetroot from "./education/beetroot.png";
-import nuoma from "./education/nuoma.png";
 import pnu from "./education/pnu.png";
 
 import olmx from "./olmx.png";
@@ -53,7 +52,6 @@ export {
   shopify,
   starbucks,
   beetroot,
-  nuoma,
   pnu,
   olmx,
   english_platform,
