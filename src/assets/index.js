@@ -1,10 +1,10 @@
-import logo from "./logo.svg";
+import logo from "./logo.png"
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-import risex from "./risex.png";
+import kodix from "./kodix.png";
 
 import css from "./tech/css.png";
 import git from "./tech/git.png";
@@ -23,15 +23,14 @@ import vue from "./tech/vue.png";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-import riselogo from "./company/riselogo.svg";
+import freelance from "./company/freelance.png";
 
 import beetroot from "./education/beetroot.png";
 import nuoma from "./education/nuoma.png";
-import onmu from "./education/onmu.png";
+import pnu from "./education/pnu.png";
 
-import campsite from "./campsite.png";
-import revents from "./revents.png";
+import olmx from "./olmx.png";
+import english_platform from "./english-platform.png";
 
 import myPhoto from "./my-photo.png";
 
@@ -53,15 +52,14 @@ export {
   meta,
   shopify,
   starbucks,
-  tesla,
   beetroot,
   nuoma,
-  onmu,
-  campsite,
-  revents,
+  pnu,
+  olmx,
+  english_platform,
   myPhoto,
-  risex,
-  riselogo,
+  kodix,
+  freelance,
   antd,
   azure,
   csharp,

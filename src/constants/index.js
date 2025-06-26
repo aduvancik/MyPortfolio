@@ -10,17 +10,12 @@ import {
   git,
   firebase,
   beetroot,
-  nuoma,
-  onmu,
-  revents,
-  risex,
-  riselogo,
+  pnu,
+  english_platform,
+  kodix,
+  freelance,
   antd,
-  azure,
-  csharp,
-  mui,
-  vue,
-  campsite,
+  olmx,
 } from "../assets";
 
 export const navLinks = [
@@ -44,11 +39,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "QA Engineer",
-    icon: web,
-  },
-  {
-    title: "Front-End Engineer",
+    title: "Front-End Developer",
     icon: mobile,
   },
 ];
@@ -90,66 +81,36 @@ const technologies = [
     name: "Ant-design React",
     icon: antd,
   },
-  {
-    name: "Azure DevOps",
-    icon: azure,
-  },
-  {
-    name: "C#",
-    icon: csharp,
-  },
-  {
-    name: "MUI React",
-    icon: mui,
-  },
-  {
-    name: "VueJS",
-    icon: vue,
-  },
 ];
 
 const jobs = [
   {
-    title: "Front-End Engineer",
-    company_name: "Rise-X",
-    icon: riselogo,
+    title: "Front-End Developer",
+    company_name: "Freelance",
+    icon: freelance,
     iconBg: "#fff",
-    date: "Aug 2023 - current",
+    date: "2023 - current",
     points: [
       "Implementing and maintaining UI of web applications to ensure an intuitive and engaging user experience.",
-      "Maintaining and writing Unit Tests / Automation test to ensure product quality.",
       "Good knowledge of writing re-usable and readable code, that other developers can maintain as well",
-      "Currently learning Back-End (C#) in order to become Full-Stack Engineer & DevOps Azure",
+      "Currently, I am improving my skills in frontend development, also studying unit tests and English.",
     ],
   },
 ];
 
 const educations = [
   {
-    title: "Marine Navigation",
-    company_name: 'National University "Odesa Maritime Academy"',
-    icon: nuoma,
-    iconBg: "#0095D7",
-    date: "Sep 2018 - June 2022",
-    points: [
-      "Bachelor degree",
-      "Celestial navigation, electronic navigation, radar plotting, and the use of nautical charts.",
-      "Understanding international maritime laws and regulations, such as SOLAS, COLREGs.",
-      "Knowledge of meteorology and oceanography - assessing weather conditions, understanding currents, and predicting the behavior of the sea.",
-      "Familiarized with various communication systems - operating and interpreting data from navigational equipment like GPS, ECDIS, and AIS.",
-    ],
-  },
-  {
-    title: "Transportation Logistics",
-    company_name: "Odesa National Maritime University",
-    icon: onmu,
+    title: "Computer engineer",
+    company_name: "Vasyl Stefanyk Precarpathian National University",
+    icon: pnu,
     iconBg: "#1D377D",
-    date: "Sep 2022 - Dec 2023",
+    date: "Sep 2021 - Jun 2025",
     points: [
-      "Master degree",
-      "Understanding of principles and concepts of logistics management, including supply chain management, inventory control, demand forecasting, and logistics network design.",
-      "Familiarized with freight forwarding processes, including documentation requirements, customs procedures, and international trade regulations.",
-      "Economic aspects of transportation, such as pricing, cost analysis, and financial evaluation of logistics operations. ",
+      "Bachelor’s Degree",
+      "Understanding of principles and core concepts of computer engineering, including digital logic design, computer architecture, embedded systems, and microprocessor technologies.",
+      "Familiar with software development practices, programming languages (such as C/C++, Python, and JavaScript), and version control systems like Git.",
+      "Basic knowledge of computer networks, operating systems, and database management systems.",
+      "Experience with hardware-software integration, debugging, and system-level problem-solving.",
     ],
   },
   {
@@ -169,42 +130,9 @@ const educations = [
 
 const projects = [
   {
-    name: "CampSite",
+    name: "The online platform for selling animals",
     description:
-      "Web-based platform that allows users to search & book campgrounds, where people can be relaxed and surrounded by nature, or users can create their own campgrounds.",
-    tags: [
-      {
-        name: "nodejs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "expressjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "ejs",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "yellow-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "bootstrap",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: campsite,
-    source_code_link: "https://github.com/ilyalobatch/CampSite",
-  },
-  {
-    name: "Re-vents",
-    description:
-      "Social Media web application that enables users to search for the upcoming events, join them and also create their own events on which people can attend as well.",
+      "here you can view ads, filter by name, price and category, or log in and post ads yourself, add them to the cart, and correspond with the seller.",
     tags: [
       {
         name: "react",
@@ -215,6 +143,10 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
+        name: "tailwindCss",
+        color: "pink-text-gradient",
+      },
+      {
         name: "firebase",
         color: "green-text-gradient",
       },
@@ -222,18 +154,36 @@ const projects = [
         name: "firestore",
         color: "green-text-gradient",
       },
+    ],
+    image: olmx,
+    project_link: "https://shopchik-3c85d.web.app/",
+    source_code_link: "https://github.com/aduvancik/shopchik?tab=readme-ov-file",
+  },
+  {
+    name: "english-platform",
+    description:
+      "Initiated and configured the project for effective team collaboration (repository structure, base configuration, integration of necessary libraries and services). Developed the frontend part of the projecParticipated in UI planning, implemented key UI components, set up routing and backend integration. Worked in a team following Git best practices (branching, pull requests, code review).",
+    tags: [
       {
-        name: "semantic-ui-react",
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React Context",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindCss",
         color: "pink-text-gradient",
       },
     ],
-    image: revents,
-    source_code_link: "https://github.com/ilyalobatch/Re-vents",
+    image: english_platform,
+    source_code_link: "https://github.com/aduvancik/english-platform",
   },
   {
-    name: "Rise-X \n(Under development)",
+    name: "test task in kodix",
     description:
-      "The Rise-X Ecosystem Orchestration Platform (EOP) is a comprehensive multi-party collaborative platform that enables you to build, connect, optimise, and automate every workflow in your business.",
+      "Develop a web application with basic functionality for user authentication and post display, following the design provided in Figma. The application should display posts with the ability to view detailed information for each post and support user authentication/registration. User data must be stored in localStorage to verify login status. The design should be implemented as accurately as possible. It is recommended to use Tailwind CSS, Material UI, or other libraries for styling.",
     tags: [
       {
         name: "javascript",
@@ -244,29 +194,20 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "zustand",
+        name: "react-router-dom",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "tailwind css",
         color: "blue-text-gradient",
       },
       {
-        name: "C#",
+        name: "localStorage",
         color: "green-text-gradient",
-      },
-      {
-        name: "python",
-        color: "green-text-gradient",
-      },
-      {
-        name: "java",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mui-react",
-        color: "pink-text-gradient",
       },
     ],
-    image: risex,
-    project_link: "https://www.rise-x.io/",
-    source_code_link: "https://github.com/ilyalobatch/Re-vents",
+    image: kodix,
+    source_code_link: "https://github.com/aduvancik/kodix",
   },
 ];
 
